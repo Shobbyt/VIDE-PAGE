@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Poppins:wght@400;500;600;700&display=swap');
+
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Lastica";
+  src: url("./public/fonts/Lastica.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  /* Fonts */
+  --font-primary: "Poppins", sans-serif;
+  --font-secondary: "Fraunces", serif;
+  --font-logo: "Lastica", sans-serif;
+
+  /* Main theme */
+  --color-background: #fdfaf0;
+  --second-background: #F9F6E7;
+
+  --color-primary: #006251;
+  --color-primary-hover: #004f42;
+  --color-primary-light: #d4efe7;
+
+  --color-text-primary: #006251;
+  --color-text-dark: #000000;
+  --color-text-light: #ffffff;
+
+  --color-card: #ffffff;
+
+  --color-border: #c7e3dc;
+  --color-muted: #6b7f79;
+  --color-primary-soft: #e8f5f1;
+
+  /* Dashboard theme */
+  --dashboard-green: #005548;
+  --dashboard-yellow: #f4bc14;
+  --dashboard-background: #f6f0e0;
+  --dashboard-second-background: #fdfaf0;
+}
+
+body {
+  font-family: var(--font-primary);
+  background-color: var(--color-background);
+  color: var(--color-text-dark);
+}
+
+html {
+  scroll-behavior: smooth;
+}
